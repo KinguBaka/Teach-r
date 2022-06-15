@@ -25,6 +25,13 @@ function HomePage() {
       </div>
       <div className="HomePage-Card">
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <div className="HomePage-Button">
         <a href="" className="Btn-gris">

@@ -7,6 +7,11 @@ $font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 10px 30px 10px 30px;
   border: 2px solid $text-blue;
   border-radius: 50px;
+  font-size: large;
+  width: 150px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .App {
