@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
 function SideBar() {
   return (
@@ -8,9 +10,16 @@ function SideBar() {
       </div>
       <div className="SideBar-texte">
         <ol>
-          <li className="grey">Votre demande</li>
-          <li className="blue">Nos porpositions</li>
-          <li className="blue">Paiement</li>
+          <li className="grey">
+            <FontAwesomeIcon className="check-icon icon" icon={faCircleCheck} />{" "}
+            Votre demande
+          </li>
+          <li className="blue">
+            <span className="number icon">2</span> Nos propositions
+          </li>
+          <li className="blue">
+            <span className="number icon">3</span> Paiement
+          </li>
         </ol>
       </div>
       <div className="SideBar-img">

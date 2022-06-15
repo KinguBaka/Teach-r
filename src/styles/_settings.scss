@@ -1,7 +1,13 @@
-$text-blue: #7393c7;
+$text-blue: #4d76b7;
 $text-grey: #69696b;
 
 $font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@mixin btn {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid $text-blue;
+  border-radius: 50px;
+}
 
 .App {
   display: flex;
@@ -15,6 +21,10 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
