@@ -1,3 +1,25 @@
+Sujet
+Au sein de notre entreprise, vous aurez pour mission de développer une application web, adossée sur l’API Teach’r déjà existante. Cela nécessite de savoir implémenter un front-end, et prendre en main une API. Ce test sera basé sur le framework React, comme l’exige la stack de Teach’r.
+
+Le sujet se décompose en plusieurs niveaux. Vous êtes libre d’atteindre le niveau qui vous convient, mais nous vous conseillons de lire entièrement le sujet avant de commencer afin de répondre directement aux consignes du niveau choisi.
+
+Nous attirons également votre attention sur le point suivant : si vous avez été en mesure de réaliser le Niveau 1 mais pas les autres, c’est déjà très bien, envoyez-le nous en étant fier.e d’avoir déjà accompli ceci !
+
+Ce projet devra être accessible depuis un repository Git public en utilisant les plateformes Github1 ou GitLab2. Vous en profiterez pour montrer vos connaissances de Git (évitez donc un projet avec un seul commit !)
+
+Niveau 1
+Application React
+
+Vous avez pour objectif de créer une application web utilisant le framework React. La première page de cette application correspondra à la maquette ci-dessous :
+
+Précisions :
+Les trois tuiles peuvent défiler horizontalement.
+Vous pouvez remplacer les illustrations sur la maquette par n’importe quelle image que vous trouverez sur Internet.
+Le champ “matière” en haut de la page définit ce qui est inscrit dans la phrase “Les Teach’rs de [matière] qui pourraient vous correspondre”. Cela a notamment pour but de tester votre connaissance du fonctionnement du “state” propre à React.
+Bonus très apprécié : votre page doit être responsive.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
