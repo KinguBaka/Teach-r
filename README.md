@@ -1,4 +1,3 @@
-Sujet
 Au sein de notre entreprise, vous aurez pour mission de développer une application web, adossée sur l’API Teach’r déjà existante. Cela nécessite de savoir implémenter un front-end, et prendre en main une API. Ce test sera basé sur le framework React, comme l’exige la stack de Teach’r.
 
 Le sujet se décompose en plusieurs niveaux. Vous êtes libre d’atteindre le niveau qui vous convient, mais nous vous conseillons de lire entièrement le sujet avant de commencer afin de répondre directement aux consignes du niveau choisi.
