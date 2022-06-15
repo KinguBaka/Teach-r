@@ -1,0 +1,47 @@
+.SideBar {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f3f5fb;
+
+  .blue {
+    color: $text-blue;
+  }
+
+  .grey {
+    color: $text-grey;
+  }
+
+  &-title {
+    display: flex;
+    margin: 10px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  &-texte {
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+
+    & li {
+      margin: 10px;
+    }
+  }
+
+  &-img {
+    display: flex;
+    justify-content: center;
+
+    & img {
+      width: 100%;
+      max-width: 300px;
+      min-width: 200px;
+    }
+  }
+}
