@@ -21,7 +21,7 @@ function HomePage() {
             icon={faMagnifyingGlass}
           ></FontAwesomeIcon>
         </div>
-        <h1>Les Teach'rs d'{search} qui pourraient vous correspondre</h1>
+        <h1>Les Teach'rs de {search} qui pourraient vous correspondre</h1>
       </div>
       <div className="HomePage-Card">
         <Card />

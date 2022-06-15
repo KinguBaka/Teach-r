@@ -46,6 +46,7 @@
 
   &-Card {
     width: 100%;
+    min-height: 600px;
     display: flex;
     overflow-x: scroll;
   }
@@ -73,6 +74,24 @@
         background-color: $text-blue;
         color: #ffff;
       }
+    }
+  }
+}
+
+@media (max-width: 1130px) {
+  .HomePage {
+    width: 90%;
+
+    &-Search {
+      text-align: center;
+    }
+
+    &-Button {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
