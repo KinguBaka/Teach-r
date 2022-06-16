@@ -1,7 +1,9 @@
-Niveau 3
-Requêtes à une API
+Niveau 4
+Formulaire
 
-Au lieu d’utiliser de fausses données entrées “en dure” dans votre code, ou un objet contenant vos données, nous vous invitons à montrer votre maîtrise des API en utilisant l’API de data.gouv.fr : https://doc.data.gouv.fr/api/reference/#/users/list_users . C’est une API publique, vous pourrez donc librement effectuer des requêtes sur l’endpoint /users afin d’obtenir une liste d'utilisateurs fictifs à utiliser dans vos maquettes.
+Pour les plus motivés, vous pouvez montrer votre maîtrise des formulaires en réalisant la maquette ci-dessous :
+
+Bonus : Vous pouvez implémenter une vérification pour vous assurer de la cohérence de ce qui est entré dans les champs (exemple : l’adresse mail est bien une adresse mail, le numéro de téléphone est bien un numéro de téléphone, etc. )
 
 ---
 
