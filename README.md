@@ -1,3 +1,11 @@
+Niveau 2
+Factoriser son code
+
+Au lieu d’utiliser de fausses données entrées “en dure” dans votre code, nous vous invitons à montrer votre maîtrise de React en utilisant un objet contenant vos données, pour factoriser votre code à l’aide des composants.
+Vous aurez donc un composant TeacherCard correspondant à une tuile d’information de professeur sur la maquette 1, et vous bouclerez sur votre objet pour obtenir plusieurs TeacherCard sur le rendu final.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
