@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faStar,
@@ -7,29 +7,40 @@ import {
   faCircleCheck,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import teacherList from "../TeacherList";
+import axios from "axios";
 
 function TeacherCard() {
-  const renderStars = (nbr) => {
-    let stars = [];
-    for (let i = 0; i < nbr; i++) {
-      stars.push(<FontAwesomeIcon className="Star-icon" icon={faStar} />);
-    }
+  const [teacherList, setTeacherList] = useState([]);
 
-    for (let i = stars.length; i < 5; i++) {
-      stars.push(<FontAwesomeIcon className="Star-icon vide" icon={faStar} />);
-    }
-    return stars;
-  };
+  useEffect(() => {
+    const searchUsers = async () => {
+      const { data } = await axios.get("https://www.data.gouv.fr/api/1/users/");
+      setTeacherList(data.data);
+    };
+
+    searchUsers();
+  }, []);
 
   const renderTeacher = () => {
-    return teacherList.map((teacher, index) => (
-      <div className="Card" key={index}>
-        <img src={teacher.img_src} alt="profil" className="profilPic" />
+    return teacherList.map((teacher) => (
+      <div className="Card" key={teacher.id}>
+        <img
+          src="./img/profil.png"
+          alt="photo de profil"
+          className="profilPic"
+        />
         <div className="Card-Header">
-          <h2>{teacher.name}</h2>
-          <div className="stars">{renderStars(teacher.star)}</div>
-          <p>{teacher.hour} heures données</p>
+          <h2>
+            {teacher.first_name} {teacher.last_name}
+          </h2>
+          <div className="stars">
+            <FontAwesomeIcon className="Star-icon" icon={faStar} />
+            <FontAwesomeIcon className="Star-icon" icon={faStar} />
+            <FontAwesomeIcon className="Star-icon" icon={faStar} />
+            <FontAwesomeIcon className="Star-icon" icon={faStar} />
+            <FontAwesomeIcon className="Star-icon vide" icon={faStar} />
+          </div>
+          <p>20 heures données</p>
         </div>
         <div className="Card-Mid">
           <ul className="Card-Mid-icon">
@@ -47,17 +58,19 @@ function TeacherCard() {
             </li>
           </ul>
           <ul className="Card-Mid-txt">
-            <li>{teacher.school}</li>
-            <li>{teacher.langue}</li>
-            <li>
-              {teacher.diplome ? "Diplome vérifié" : "Diplome non-vérifié"}
-            </li>
-            <li>{teacher.location}</li>
+            <li>HEC, 1ére année</li>
+            <li>Bilingue</li>
+            <li>Diplome vérifié</li>
+            <li>Paris</li>
           </ul>
         </div>
         <div className="Card-Footer">
           <h3>Description</h3>
-          <p>{teacher.Description}</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt optio,
+            doloremque dicta blanditiis vero nostrum vitae deleniti consequatur
+            corrupti soluta necessitatibus.
+          </p>
         </div>
         <button className="Card-Button">CHOISIR</button>
       </div>

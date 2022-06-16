@@ -1,8 +1,7 @@
-Niveau 2
-Factoriser son code
+Niveau 3
+Requêtes à une API
 
-Au lieu d’utiliser de fausses données entrées “en dure” dans votre code, nous vous invitons à montrer votre maîtrise de React en utilisant un objet contenant vos données, pour factoriser votre code à l’aide des composants.
-Vous aurez donc un composant TeacherCard correspondant à une tuile d’information de professeur sur la maquette 1, et vous bouclerez sur votre objet pour obtenir plusieurs TeacherCard sur le rendu final.
+Au lieu d’utiliser de fausses données entrées “en dure” dans votre code, ou un objet contenant vos données, nous vous invitons à montrer votre maîtrise des API en utilisant l’API de data.gouv.fr : https://doc.data.gouv.fr/api/reference/#/users/list_users . C’est une API publique, vous pourrez donc librement effectuer des requêtes sur l’endpoint /users afin d’obtenir une liste d'utilisateurs fictifs à utiliser dans vos maquettes.
 
 ---
 
