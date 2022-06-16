@@ -1,2 +1,42 @@
 .FormPage {
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+
+    label {
+      background-color: #f3f5fb;
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+    }
+
+    input {
+      background-color: #f3f5fb;
+      border-radius: 0 0 10px 10px;
+      border: none;
+      padding: 10px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .labelInput {
+    width: 45%;
+    min-width: 300px;
+    margin: 15px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 1130px) {
+  .FormPage {
+    form {
+      justify-content: center;
+    }
+  }
 }
