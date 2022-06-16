@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import Card from "./Card";
+import TeacherCard from "./TeacherCard";
 
 function HomePage() {
   const [search, setSearch] = useState("");
@@ -24,14 +24,7 @@ function HomePage() {
         <h1>Les Teach'rs de {search} qui pourraient vous correspondre</h1>
       </div>
       <div className="HomePage-Card">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <TeacherCard />
       </div>
       <div className="HomePage-Button">
         <a href="" className="Btn-gris">
