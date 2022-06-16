@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   background-color: #f3f5fb;
 
@@ -72,6 +72,7 @@
 @media (max-width: 1130px) {
   .SideBar {
     width: 100%;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;

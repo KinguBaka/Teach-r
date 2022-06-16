@@ -1,30 +1,26 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import TeacherCard from "./TeacherCard";
+import FormPage from "./Form";
 
 function HomePage() {
   const [search, setSearch] = useState("");
 
   return (
     <div className="HomePage">
-      <div className="HomePage-Search">
-        <h1>En quelle matiére avez-vous besoin d'aide ?</h1>
-        <div className="SearchBar">
-          <input
-            type="text"
-            placeholder="SVT, piano, anglais, math..."
-            onChange={(e) => setSearch(e.target.value)}
-          />
-          <FontAwesomeIcon
-            className="search-icon"
-            icon={faMagnifyingGlass}
-          ></FontAwesomeIcon>
-        </div>
-        <h1>Les Teach'rs de {search} qui pourraient vous correspondre</h1>
+      <div className="HomePage-Top">
+        <p>
+          Vous rencontrez des difficultées? <a href=""> Obtenez de l'aide</a>
+        </p>
       </div>
-      <div className="HomePage-Card">
-        <TeacherCard />
+      <div className="HomePage-Form">
+        <h1>Presque fini !</h1>
+        <p>
+          Une fois que des Teach'rs auront répondu à votre annonce, vous aurez
+          besoin d'un compte pour y répondre.{" "}
+          <strong>Prenon de l'avance !</strong>
+        </p>
+        <FormPage />
       </div>
       <div className="HomePage-Button">
         <a href="" className="Btn-gris">

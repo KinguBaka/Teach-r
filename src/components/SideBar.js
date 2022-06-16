@@ -12,13 +12,26 @@ function SideBar() {
         <ol>
           <li className="grey">
             <FontAwesomeIcon className="check-icon icon" icon={faCircleCheck} />{" "}
-            Votre demande
+            Quelle matière ?
+          </li>
+          <li className="grey">
+            <FontAwesomeIcon className="check-icon icon" icon={faCircleCheck} />{" "}
+            Quelle classe ?
+          </li>
+          <li className="grey">
+            <FontAwesomeIcon className="check-icon icon" icon={faCircleCheck} />{" "}
+            Domicile ou distance ?
+          </li>
+          <li className="grey">
+            <FontAwesomeIcon className="check-icon icon" icon={faCircleCheck} />{" "}
+            Quel type de cours ?
+          </li>
+          <li className="grey">
+            <FontAwesomeIcon className="check-icon icon" icon={faCircleCheck} />{" "}
+            À qui s'adresse le cours ?
           </li>
           <li className="blue">
-            <span className="number icon">2</span> Nos propositions
-          </li>
-          <li className="blue">
-            <span className="number icon">3</span> Paiement
+            <span className="number icon">6</span> Presque finit !
           </li>
         </ol>
       </div>
