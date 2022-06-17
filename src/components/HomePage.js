@@ -18,12 +18,6 @@ function HomePage() {
         </p>
         <FormPage />
       </div>
-      <div className="HomePage-Button">
-        <a href="" className="Btn-gris">
-          PRÉCEDENT
-        </a>
-        <button className="Btn-blanc">SUIVANT </button>
-      </div>
     </div>
   );
 }
