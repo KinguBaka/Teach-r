@@ -17,6 +17,9 @@ Vous pouvez remplacer les illustrations sur la maquette par n’importe quelle i
 Le champ “matière” en haut de la page définit ce qui est inscrit dans la phrase “Les Teach’rs de [matière] qui pourraient vous correspondre”. Cela a notamment pour but de tester votre connaissance du fonctionnement du “state” propre à React.
 Bonus très apprécié : votre page doit être responsive.
 
+Premiére insatallation :
+
+### `npm install`
 ---
 
 # Getting Started with Create React App
