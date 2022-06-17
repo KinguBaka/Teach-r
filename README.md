@@ -1,5 +1,4 @@
-Parcourir les branches pour les différents Niveaux!
------------------------------------------
+## Parcourir les branches pour les différents Niveaux!
 
 Test technique
 Développeur Application Web - Juin 2022
@@ -19,7 +18,7 @@ Niveau 1
 Application React
 
 Vous avez pour objectif de créer une application web utilisant le framework React. La première page de cette application correspondra à la maquette ci-dessous :
-![alt text](https://github.com/KinguBaka/teach-r/tree/master/img/Niveau1.jpg?raw=true)
+![Niveau1](/teach-r/tree/master/img/Niveau1.jpg?raw=true "Niveau 1")
 
 Précisions :
 Les trois tuiles peuvent défiler horizontalement.
