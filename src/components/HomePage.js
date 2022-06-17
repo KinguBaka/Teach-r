@@ -1,11 +1,7 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 import FormPage from "./Form";
 
 function HomePage() {
-  const [search, setSearch] = useState("");
-
   return (
     <div className="HomePage">
       <div className="HomePage-Top">
@@ -18,7 +14,7 @@ function HomePage() {
         <p>
           Une fois que des Teach'rs auront répondu à votre annonce, vous aurez
           besoin d'un compte pour y répondre.{" "}
-          <strong>Prenon de l'avance !</strong>
+          <strong>Prenons de l'avance !</strong>
         </p>
         <FormPage />
       </div>
