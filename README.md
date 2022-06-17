@@ -7,6 +7,10 @@ Bonus : Vous pouvez implémenter une vérification pour vous assurer de la cohé
 
 ---
 
+Premiére insatallation :
+
+### `npm install`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
