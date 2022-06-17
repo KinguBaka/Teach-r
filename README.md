@@ -18,7 +18,9 @@ Niveau 1
 Application React
 
 Vous avez pour objectif de créer une application web utilisant le framework React. La première page de cette application correspondra à la maquette ci-dessous :
-![Niveau1](/teach-r/tree/master/img/Niveau1.jpg?raw=true "Niveau 1")
+
+![Niveau1](https://user-images.githubusercontent.com/38428191/174302329-fceb1070-4177-4d9e-baf2-069393c203cf.jpg)
+
 
 Précisions :
 Les trois tuiles peuvent défiler horizontalement.
@@ -41,7 +43,9 @@ Niveau 4
 Formulaire
 
 Pour les plus motivés, vous pouvez montrer votre maîtrise des formulaires en réalisant la maquette ci-dessous :
-![alt text](https://github.com/KinguBaka/teach-r/tree/master/img/Niveau4.jpg?raw=true)
+
+![Niveau4](https://user-images.githubusercontent.com/38428191/174302344-b041385b-81a6-4ae8-8dbb-f3ecf75ea0b6.jpg)
+
 
 Bonus : Vous pouvez implémenter une vérification pour vous assurer de la cohérence de ce qui est entré dans les champs (exemple : l’adresse mail est bien une adresse mail, le numéro de téléphone est bien un numéro de téléphone, etc. )
 
