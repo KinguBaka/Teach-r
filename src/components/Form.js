@@ -34,24 +34,29 @@ function FormPage() {
     <div className="FormPage">
       <div className="form">
         <div className="labelInput">
-          <label htmlFor="">Prénom</label>
-          <input type="text" placeholder="Ex. John" />
+          <label htmlFor="firstName">Prénom</label>
+          <input type="text" name="firstName" placeholder="Ex. John" />
         </div>
         <div className="labelInput">
-          <label htmlFor="">Nom</label>
-          <input type="text" placeholder="Ex. DUPONT" />
+          <label htmlFor="lastName">Nom</label>
+          <input type="text" name="lastName" placeholder="Ex. DUPONT" />
         </div>
         <div className="labelInput">
-          <label htmlFor="">E-mail</label>
-          <input type="text" placeholder="mail@mail.com" />
+          <label htmlFor="email">E-mail</label>
+          <input type="email" name="email" placeholder="mail@mail.com" />
         </div>
         <div className="labelInput">
-          <label htmlFor="">No. Téléphone portable</label>
-          <input type="text" placeholder="Ex. 06 XX XX XX XX" />
+          <label htmlFor="tel">No. Téléphone portable</label>
+          <input type="tel" name="tel" placeholder="Ex. 06 XX XX XX XX" />
         </div>
         <div className="labelInput">
-          <label htmlFor="">Mot de passe</label>
-          <input className="mdp1" type="password" placeholder="xxxxxxxx" />
+          <label htmlFor="password1">Mot de passe</label>
+          <input
+            className="mdp1"
+            name="password1"
+            type="password"
+            placeholder="xxxxxxxx"
+          />
           <div className="cnt-icon">
             {eyes ? (
               <FontAwesomeIcon
@@ -69,8 +74,13 @@ function FormPage() {
           </div>
         </div>
         <div className="labelInput">
-          <label htmlFor="">Confirmation mot de passe</label>
-          <input className="mdp2" type="password" placeholder="xxxxxxxx" />
+          <label htmlFor="password2">Confirmation mot de passe</label>
+          <input
+            className="mdp2"
+            name="password2"
+            type="password"
+            placeholder="xxxxxxxx"
+          />
           <div className="cnt-icon">
             {eyes2 ? (
               <FontAwesomeIcon
