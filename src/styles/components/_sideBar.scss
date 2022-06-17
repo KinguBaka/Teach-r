@@ -52,7 +52,7 @@
       margin: 10px 10px 30px 30px;
       display: flex;
       flex-direction: row;
-      align-items: flex-end;
+      align-items: center;
     }
   }
 
@@ -78,6 +78,10 @@
     justify-content: space-around;
     &-img {
       display: none;
+    }
+
+    &-title img {
+      margin: 0;
     }
   }
 }
