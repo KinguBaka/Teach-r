@@ -1,79 +1,50 @@
+Parcourir les branches pour les différents Niveaux!
+-----------------------------------------
+
+Test technique
+Développeur Application Web - Juin 2022
+Préambule
+Vous avez été présélectionné(e) pour le poste de développeur Application Web au sein de Teach’r. Pour témoigner votre niveau en développement, nous vous invitons à réaliser le projet suivant.
+Vous avez 5 jours (120 heures) à compter de la date de réception de ce test pour rendre votre projet.
+Sujet
+Au sein de notre entreprise, vous aurez pour mission de développer une application web, adossée sur l’API Teach’r déjà existante. Cela nécessite de savoir implémenter un front-end, et prendre en main une API. Ce test sera basé sur le framework React, comme l’exige la stack de Teach’r.
+
+Le sujet se décompose en plusieurs niveaux. Vous êtes libre d’atteindre le niveau qui vous convient, mais nous vous conseillons de lire entièrement le sujet avant de commencer afin de répondre directement aux consignes du niveau choisi.
+
+Nous attirons également votre attention sur le point suivant : si vous avez été en mesure de réaliser le Niveau 1 mais pas les autres, c’est déjà très bien, envoyez-le nous en étant fier.e d’avoir déjà accompli ceci !
+
+Ce projet devra être accessible depuis un repository Git public en utilisant les plateformes Github1 ou GitLab2. Vous en profiterez pour montrer vos connaissances de Git (évitez donc un projet avec un seul commit !)
+
+Niveau 1
+Application React
+
+Vous avez pour objectif de créer une application web utilisant le framework React. La première page de cette application correspondra à la maquette ci-dessous :
+![alt text](https://github.com/KinguBaka/teach-r/tree/master/img/Niveau1.jpg?raw=true)
+
+Précisions :
+Les trois tuiles peuvent défiler horizontalement.
+Vous pouvez remplacer les illustrations sur la maquette par n’importe quelle image que vous trouverez sur Internet.
+Le champ “matière” en haut de la page définit ce qui est inscrit dans la phrase “Les Teach’rs de [matière] qui pourraient vous correspondre”. Cela a notamment pour but de tester votre connaissance du fonctionnement du “state” propre à React.
+Bonus très apprécié : votre page doit être responsive.
+
+Niveau 2
+Factoriser son code
+
+Au lieu d’utiliser de fausses données entrées “en dure” dans votre code, nous vous invitons à montrer votre maîtrise de React en utilisant un objet contenant vos données, pour factoriser votre code à l’aide des composants.
+Vous aurez donc un composant TeacherCard correspondant à une tuile d’information de professeur sur la maquette 1, et vous bouclerez sur votre objet pour obtenir plusieurs TeacherCard sur le rendu final.
+
+Niveau 3
+Requêtes à une API
+
+Au lieu d’utiliser de fausses données entrées “en dure” dans votre code, ou un objet contenant vos données, nous vous invitons à montrer votre maîtrise des API en utilisant l’API de data.gouv.fr : https://doc.data.gouv.fr/api/reference/#/users/list_users . C’est une API publique, vous pourrez donc librement effectuer des requêtes sur l’endpoint /users afin d’obtenir une liste d'utilisateurs fictifs à utiliser dans vos maquettes.
+
 Niveau 4
 Formulaire
 
 Pour les plus motivés, vous pouvez montrer votre maîtrise des formulaires en réalisant la maquette ci-dessous :
+![alt text](https://github.com/KinguBaka/teach-r/tree/master/img/Niveau4.jpg?raw=true)
 
 Bonus : Vous pouvez implémenter une vérification pour vous assurer de la cohérence de ce qui est entré dans les champs (exemple : l’adresse mail est bien une adresse mail, le numéro de téléphone est bien un numéro de téléphone, etc. )
 
----
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bon courage !
+L’équipe Teach’r
