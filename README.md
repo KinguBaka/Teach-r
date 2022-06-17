@@ -5,6 +5,10 @@ Au lieu d’utiliser de fausses données entrées “en dure” dans votre code,
 
 ---
 
+Premiére insatallation :
+
+### `npm install`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
